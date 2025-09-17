@@ -97,3 +97,10 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Rider auto-generated files
+.idea/
+
+# Personal Folder
+[Aa]ssets/[Ee]stebanGaete/
+[Aa]ssets/[Ee]stebanGaete.meta
