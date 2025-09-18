@@ -6,6 +6,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
 #if UNITY_EDITOR
+    [Header("Editor Configuration")]
     [SerializeField] GameObject prefab;
     public GameObject Prefab => prefab;
 #endif
