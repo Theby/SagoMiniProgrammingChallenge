@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.0.57f1
-CRC: 4069934356
+CRC: 2248177419
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7ebd7c19b029a0efde07af05908c6b5a
+    Hash: b7ad5ca685fbf9de694e5a022c116a3c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: faabc1bd1e3d180c413425359656c175
+    Hash: b6da96112dddbd60a31c0c08eef2f2d6
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e9ff6fad33b392001dbcece924d6561f
+    Hash: 4a560c7979c202555d907d90d7919881
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -31,12 +31,18 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 15fcd515a30e24366b8ef7a8fb64e68e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 68ee0527aafa44f63870745db76a39d2, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/_SMPC/Prefabs/Cube.prefab
-- Assets/_SMPC/Prefabs/Capsule.prefab
+- Assets/_SMPC/Prefabs/CubeP.prefab
+- Assets/_SMPC/Prefabs/CubeY.prefab
+- Assets/_SMPC/Prefabs/CylinderP.prefab
+- Assets/_SMPC/Prefabs/CapsuleY.prefab
+- Assets/_SMPC/Prefabs/CylinderY.prefab
+- Assets/_SMPC/Prefabs/CapsuleP.prefab
 Dependencies: []

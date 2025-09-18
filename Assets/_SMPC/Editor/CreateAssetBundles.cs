@@ -37,9 +37,9 @@ public class CreateAssetBundles
         BuildPipeline.BuildAssetBundles(buildParameters);
 
         // Refresh Assets
-        //AssetDatabase.Refresh();
         AssetDatabase.SaveAssets();
-
+        AssetDatabase.Refresh();
+        
         Debug.Log("AssetBundles build complete");
     }
 
